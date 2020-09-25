@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Swish.io</title>
+    <link rel="stylesheet" href="/static/detect.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/static/detect.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <div class="topnav" id="myTopnav">
+        <a href=home class="active">Swish.io</a>
+          <a class="side" href="https://www.paypal.com" >Support Us</a>
+          <a class="side" href=contact >About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+    <div>
+      <div class="row"> 
+        <div class="column side">
+          <h2>Ads</h2>
+          <p></p>
+        </div>
+  
+        <div class="column middle">
+          <div>
+            <br>  <br> <br> <br> <br>
+              <h2>This is an AI-powered <br> Twitter sentiment analysis app.</h2>
+          </div>
+          <div>
+            <form action="{{ url_for('analyze')}}"method="post">
+              <input type="text" name="q" placeholder="Save Sentiment Result as: (e.g. filename.csv)">
+              <br>
+              <input type="text" name="text" placeholder="Input a topic or any hashtags here">
+              <br>
+              <input href=analyze type="submit" value="Analyze">
+            </form>
+          </div>
+        </div>
+
+  
+        <div class="column side">
+          <h2>Ads</h2>
+          <p></p>
+        </div>
+      </div>
+
+      <br>
+      <br>  
+      <br>  
+      <div class="footer">
+      <h4># Search for any topic or hashtags and analyze the sentiments of 100 random tweets!</h4>
+      <h4># Results labelled as Positive, Negative and Neutral tweets</h4>
+      <h4># This app is powered by the Twitter API. More ML features on the way.</h4>
+    </div>
+    </div>
+  </body>
+</html>

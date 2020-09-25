@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Swish.io</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/static/detect.js"></script>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+  
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+  
+      .topnav a.active {
+        text-align: center;
+        float: left;
+      }
+      .topnav a.side {
+        float: right;
+      }
+
+      .topnav a {
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+  
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+  
+      .topnav a.active {
+        background-color: #333;
+        color: white;
+      }
+  
+      .topnav .icon {
+        display: none;
+        }
+  
+      @media screen and (max-width: 600px) {
+      .topnav a:not(:first-child) {display: none;}
+      .topnav a.icon {
+        float: right;
+        display: block;
+        }
+      }
+  
+      @media screen and (max-width: 600px) {
+      .topnav.responsive {position: relative;}
+      .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+      }
+  
+      /* Create three unequal columns that floats next to each other */
+      .column {
+        float: left;
+        padding: 0px;
+      }
+  
+      /* Left and right column */
+      .column.side {
+        width: 20%;
+        text-align: center;
+      }
+  
+      /* Middle column */
+      .column.middle {
+        width: 60%;
+      }
+  
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+  
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background:none;
+        margin-top: 20px;
+      }
+      table {
+        display: flex;
+        flex-wrap: wrap;
+        margin:auto;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      td {
+        text-align: left;
+        font-size: xx-large;
+        padding: 30px;
+        border: 1px solid rgb(177, 173, 173);
+      }
+      #positive {
+      background-color: rgb(76, 171, 226);
+      }
+      #negative {
+        background-color: rgb(199, 11, 49);
+      }
+      #neutral {
+        background-color: rgb(160, 159, 159);
+      }
+      .outside {border: none;
+      }
+
+      input[type=submit] {
+        display: block;
+        padding: 12px 20px;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: gray;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-size: large; 
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <div class="topnav" id="myTopnav">
+        <a href="home" class="active">Swish.io</a>
+          <a class="side" href="https://www.paypal.com" >Support Us</a>
+          <a class="side" href="contact" >About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+    <div>
+      <div class="row"> 
+        <div class="column side">
+          <h2>Ads</h2>
+          <p></p>
+        </div>
+        
+        <div class="column middle">
+          <br><br><br><br><br><br><br><br>
+          <table>
+            <tr>
+              <td id="positive">POSITIVE</td>
+              <td>{{ a }}%</td>
+              <td class="outside">API calls limited to 100 tweets</td>
+            </tr>
+            <tr>
+              <td id="negative">NEGATIVE</td>
+              <td>{{ b }}%</td>
+              <td class="outside">English tweets are more reliable</td>
+            </tr>
+            <tr>
+              <td id="neutral">NEUTRAL</td>
+              <td>{{ c }}%</td>
+              <td class="outside">More details are shown in the CSV file</td>
+            </tr>
+          </table>
+          <br>
+          <br>
+          <br>
+          <form action="https://drive.google.com/drive/folders/15QdcbWn5qsCwdj_flnsgQEjM_4fz3sME?usp=sharing">
+            <input type="submit" value="Click here to download">
+          </form>  
+        </div>
+
+  
+        <div class="column side">
+          <h2>Ads</h2>
+          <p></p>
+        </div>
+      </div>
+
+      <br>
+      <br>  
+      <br>  
+      <br> 
+    <div class="footer">
+      <h4># Search for any topic or hashtags and see the sentiments of 15 random tweets!</h4>
+      <h4># This app is powered by the Twitter API. More ML features on the way.</h4>
+    </div>
+    </div>
+  </body>
+</html>
