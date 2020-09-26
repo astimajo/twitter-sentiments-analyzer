@@ -2,6 +2,10 @@ import csv, tweepy, os
 from textblob import TextBlob
 import new_file 
 
+#script by A. Ablazo, © 2017
+
+#modifications done by A. Timajo.
+
 def tweetscraper(filename, query): #required: .csv for filename
     class Conn:
         '''
