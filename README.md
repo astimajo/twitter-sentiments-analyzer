@@ -22,18 +22,18 @@ tweet.text, tweet.user.screen_name, tweet.created_at, tweet.user.location,
 tweet.retweet_count, tweet.favorite_count, sentiment, language
 
 **Technologies used to Implement the Project:**
--Python3
--Flask
--Tweepy
--TextBlob
--PyDrive
--HTML/CSS/Javascript
--Heavily W3.css
+- Python3
+- Flask
+- Tweepy
+- TextBlob
+- PyDrive
+- HTML/CSS/Javascript
+- Heavily W3.css
 
 **Other Very Important Requirements:**
--Twitter Developer Account (approved Dev access and API credentials)
--Google Cloud Platform Account (Gdrive API key)
--Linux OS is preferred
+- Twitter Developer Account (approved Dev access and API credentials)
+- Google Cloud Platform Account (Gdrive API key)
+- Linux OS is preferred
 
 **How it Works?**
 Put a filename with a .csv extension, then input your desired topic or subject matter
@@ -51,11 +51,11 @@ a pinch of salt when handling. all tweets csv files are stored in a gdrive page 
 for only relevant purposes, in this purpose: Demonstration only.
 
 **Future Improvements**
--More Machine learning frameworks like tensorflow and sklearn to be applied for more advanced apps
--Making the API key change available on the UI to make the app more user-friendly.
--Deployment to Docker to make sure of uniform runtime on all systems and configs.
--launching the web app to a hosting service for easy access/on the go use.
--renaming some variables in jinja2 and python to improve readability.
+- More Machine learning frameworks like tensorflow and sklearn to be applied for more advanced apps
+- Making the API key change available on the UI to make the app more user-friendly.
+- Deployment to Docker to make sure of uniform runtime on all systems and configs.
+- launching the web app to a hosting service for easy access/on the go use.
+- renaming some variables in jinja2 and python to improve readability.
 
 **How to launch the Application**
 1. install pip3 if none sudo apt install python3-pip -y
@@ -66,6 +66,6 @@ for only relevant purposes, in this purpose: Demonstration only.
 
 **Citations:**
 
-Tweetscraper script ideas by A. Ablazo, © 2017 (inside tweetscraper_test.py)
-Web Design look and ideas from J. Collado 2020 (css design trend)
+- Tweetscraper script ideas by A. Ablazo, © 2017 (inside tweetscraper_test.py)
+- Web Design look and ideas from J. Collado 2020 (css design trend)
 
