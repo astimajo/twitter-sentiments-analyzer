@@ -1,4 +1,4 @@
-**CS50 Final Project - swish.io tweets sentiment analyzer**
+**CS50 Final Project - Swish.io Tweets Sentiment Analyzer**
 
 This project is a web application where users can input a certain topic in twitter
 like a Hashtag, username, or a specific event going on, and the application will 
