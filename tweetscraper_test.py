@@ -12,10 +12,10 @@ def tweetscraper(filename, query): #required: .csv for filename
             twitter credentials class
         '''
         def __init__(self, *args):
-            self.ck = 'fUEl1vqhD3FO37I12c0mXfQpo'                             #consumer key
-            self.cs = 'THQXyMK5YZQ66sGPizhM3tFOCETRhQg8Rm1AChPOQGntMo5A1g'    #consumer secret
-            self.at = '1149663947676479488-Fj02BUZShgRBJbPkkw2hFHKj4BvRmk'    #access token
-            self.ats = 'FsUFTot9IaDRPmGPmO4jPsStMSKJT8dv980GgfatOW1k3'        #access token secret
+            self.ck =     #consumer key
+            self.cs =     #consumer secret
+            self.at =     #access token
+            self.ats =    #access token secret
     
         def tweep_creds(self):
             auth = tweepy.OAuthHandler(self.ck, self.cs)
