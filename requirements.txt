@@ -1,0 +1,6 @@
+flask 
+tweepy
+textblob 
+pydrive
+
+ 
