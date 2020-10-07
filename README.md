@@ -21,6 +21,12 @@ information on the tweets such as metadata and etc.
 tweet.text, tweet.user.screen_name, tweet.created_at, tweet.user.location, 
 tweet.retweet_count, tweet.favorite_count, sentiment, language
 
+
+**VERY Important Requirements:**
+- Twitter Developer Account (approved Dev access and API credentials) to be filled inside tweetscraper_test.py. 
+- Google Cloud Platform Account (Gdrive API key) in client_secrets.json.
+- Linux OS is preferred to avoid runtime errors (to be dockerized in future iteration to avoid such issue).
+
 **Technologies used to Implement the Project:**
 - Python3
 - Flask
@@ -30,10 +36,6 @@ tweet.retweet_count, tweet.favorite_count, sentiment, language
 - HTML/CSS/Javascript
 - Heavily W3.css
 
-**Other Very Important Requirements:**
-- Twitter Developer Account (approved Dev access and API credentials)
-- Google Cloud Platform Account (Gdrive API key)
-- Linux OS is preferred
 
 **How it Works?**
 Put a filename with a .csv extension, then input your desired topic or subject matter
