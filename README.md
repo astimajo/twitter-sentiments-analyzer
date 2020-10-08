@@ -16,6 +16,9 @@ the app will scrape around 100 tweets, perform sentiments analysis, save the csv
 automatically save them a Public Gdrive page where the csv contains more detailed
 information on the tweets such as metadata and etc.
 
+Note that swish is just a random name I thought of and has no meaning whatsoever, just a universal brand
+of sorts for my project. 
+
 **information rows contained in the csv:**
 
 tweet.text, tweet.user.screen_name, tweet.created_at, tweet.user.location, 
