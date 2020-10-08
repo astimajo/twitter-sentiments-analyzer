@@ -66,9 +66,9 @@ for only relevant purposes, in this purpose: Demonstration only.
 4. go to directory where clone is stored with cd command
 5. enter flask run and a browser window will appear.
 
-**Citations:**
+**Citations and Credits:**
 
 - Tweetscraper script by A. Ablazo, © 2017 (inside tweetscraper_test.py with modifications by Angelo Timajo (me)).
-- Web Design look and ideas from J. Collado 2020 (css design trend).
+- Web Design look and ideas from Joselle Collado (css design trend).
 - DevOps and Tech stack consultation from Mr. Adamson Dela Cruz. 
 
