@@ -13,7 +13,7 @@ The Tweetscraper can gather around 900 tweets but I limited the web app to scrap
 for the meantime as the internet in my country is quite slower than average and scraping
 900 tweets as I have tried took significantly longer load times. So for the purpose of demonstration
 the app will scrape around 100 tweets, perform sentiments analysis, save the csv locally then 
-automatically save them a Public Gdrive page where the csv contains more detailed
+automatically save them to a Public Gdrive page where the csv contains more detailed
 information on the tweets such as metadata and etc.
 
 Note that swish is just a random name I thought of and has no meaning whatsoever, just a universal brand
