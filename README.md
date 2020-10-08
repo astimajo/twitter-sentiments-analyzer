@@ -11,7 +11,7 @@ and a few others.
 
 The Tweetscraper can gather around 900 tweets but I limited the web app to scrape 100
 for the meantime as the internet in my country is quite slower than average and scraping
-900 tweets as I have tried took significantly long times. So for the purpose of demonstration
+900 tweets as I have tried took significantly longer load times. So for the purpose of demonstration
 the app will scrape around 100 tweets, perform sentiments analysis, save the csv locally then 
 automatically save them a Public Gdrive page where the csv contains more detailed
 information on the tweets such as metadata and etc.
