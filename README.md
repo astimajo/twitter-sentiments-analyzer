@@ -60,11 +60,11 @@ for only relevant purposes, in this purpose: Demonstration only.
 - renaming some variables in jinja2 and python to improve readability.
 
 **How to launch the Application**
-1. install pip3 if none sudo apt install python3-pip -y
-2. Clone the repository git clone ...
-3. run pip3 install -r requirements.txt
-4. go to directory where clone is stored with cd command
-5. enter flask run and a browser window will appear.
+1. install pip3 if none (sudo apt install python3-pip -y).
+2. Clone the repository (git clone https://github.com/astimajo/swishio-tweetsentimentanalyzer.git).
+3. run (pip3 install -r requirements.txt) to install all required packages.
+4. go to the directory where the clone is stored using cd command.
+5. run (flask run) or (python3 app.py) and a browser window will appear.
 
 **Citations and Credits:**
 
