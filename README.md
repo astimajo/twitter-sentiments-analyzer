@@ -68,6 +68,6 @@ for only relevant purposes, in this purpose: Demonstration only.
 
 **Citations:**
 
-- Tweetscraper script ideas by A. Ablazo, © 2017 (inside tweetscraper_test.py)
+- Tweetscraper script by A. Ablazo, © 2017 (inside tweetscraper_test.py with modifications by Angelo Timajo(me))
 - Web Design look and ideas from J. Collado 2020 (css design trend)
 
